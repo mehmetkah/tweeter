@@ -1,0 +1,45 @@
+.new-tweet{
+
+    width: 100% ;
+
+
+
+}
+#tweetbotton{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.new-tweet form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.new-tweet textarea {
+
+    border: none;   
+    border-bottom: 3px solid black  ;
+
+
+
+}
+.new-tweet .input-output{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.input-output input,output {
+
+
+    margin-top: 10px;
+
+
+}
