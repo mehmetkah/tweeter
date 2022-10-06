@@ -5,8 +5,9 @@ $(document).ready(function () {
    * Changes the text of the sibling with 'counter' class to be the current input length
    */
   $(".new-tweet textarea").on("input", function () {
-    let newTweetLength = $(this).val().length;
-    let nearbyCounter = $(this).siblings(".counter");
+    const newTweetLength = $(this).val().length;
+    const nearbyCounter = $(".counter");
+
     const tweetLengthLimit = 140;
 
     if (newTweetLength > tweetLengthLimit) {
@@ -14,6 +15,7 @@ $(document).ready(function () {
     } else if (newTweetLength <= tweetLengthLimit) {
       nearbyCounter.removeClass("tweetTooLong");
     }
+
     nearbyCounter.text(tweetLengthLimit - newTweetLength);
   });
 });

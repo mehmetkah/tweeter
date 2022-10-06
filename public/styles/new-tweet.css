@@ -43,3 +43,15 @@ justify-content: space-between;
 
 
 }
+
+.tweetTooLong{
+    color: red;
+    }
+
+.errorSection {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: red;
+
+    }
