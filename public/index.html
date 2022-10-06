@@ -24,6 +24,7 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -46,7 +47,7 @@
     </nav>
     <header>
       <div>
-          <img src="/images/fth_avatar.png"> 
+          <img src="/images/fth_avatar.png" alt="profile picture"> 
       </div>
       <br>
       <div>
@@ -58,8 +59,8 @@
     <main class="container">
       <section class="new-tweet">
         <p></p>
-        <form action="/tweets/" method="POST">
-          <textarea name="text" placeholder="what's shakin bacon?"></textarea>
+        <form class="tweetForm" action="/tweets/" method="POST">
+          <textarea name="text" placeholder="What's shakin bacon?"></textarea>
           <span id="tweetbotton">
           <input type="submit" value="Tweet">
           <span class="counter">140</span>
@@ -67,7 +68,7 @@
         </form>
       </section>
       <section class="all-tweets">
-        <article class="tweet"> 
+        <!-- <article class="tweet"> 
           <header class="tweet-header">  
             <img src="/images/fth_avatar.png">
             <span id="name" >Alex</span>
@@ -77,13 +78,13 @@
 
           <footer>
             10 days ago
-            <span class=""> 
+            <span class="interactOptions"> 
               <i class="fa-solid fa-flag"></i>
               <i class="fa-solid fa-retweet"></i>
               <i class="fa-solid fa-heart"></i>
             </span>
           </footer>
-        </article> 
+        </article>  -->
       </section>
     </main>
   </body>

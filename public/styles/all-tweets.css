@@ -34,8 +34,8 @@ padding-left: 15px;
 
 header.tweet-header {
 
-    background-color: unset;
-    background-image: unset;
+    background-color: unset !important;
+    background-image: unset !important;
 }
 
 article.tweet span {
