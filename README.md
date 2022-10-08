@@ -1,6 +1,6 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone that allows users to post a tweet. New tweets are added to the page in real time.
+Tweeter is a simple, single-page AJAX based Twitter clone that allows users to post a tweet. New tweets are added to the page in real time.
 
 ## Final Product
 
@@ -39,5 +39,7 @@ Error occurs when there is no tweet
 ## Dependencies
 
 -body-parser
--express"
+
+-express.js
+
 -timeago.js
