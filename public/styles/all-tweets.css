@@ -3,6 +3,8 @@ section.all-tweets {
 }
 
 article.tweet {
+  display: flex;
+  flex-direction: column;
   border-style: solid;
   border-width: thick;
   color: #545149;
@@ -18,7 +20,7 @@ article.tweet header {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
-  justify-content: left;
+  justify-content: space-between;
   margin-top: unset;
 }
 

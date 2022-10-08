@@ -14,15 +14,15 @@ $(document).ready(function () {
       $(".all-tweets").prepend($tweets);
     }
   };
-  // loops through tweets
-  // calls createTweetElement for each tweet
-  // takes return value and appends it to the tweets container
 
   const createTweetElement = function (tweet) {
     const $tweet = $("<article>");
-    const innerHTML = $(`<article class="tweet"><header>
+    const innerHTML = $(`<article class="tweet"><header
+    class="tweet-header">
+    <div>
   <img src= ${tweet.user.avatars}>
   <span>${tweet.user.name}</span>
+  </div>
   <span class="handle">${tweet.user.handle}</span>
 </header>
 <span>${escape(tweet.content.text)}</span>

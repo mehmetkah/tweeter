@@ -2,8 +2,6 @@
 
     width: 100% ;
 
-
-
 }
 #tweetbotton{
 
@@ -13,19 +11,20 @@ justify-content: space-between;
 
 }
 
+#submitTweet{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(86, 86, 212);
+}
 .new-tweet form {
     display: flex;
     flex-direction: column;
-
 }
-
 
 .new-tweet textarea {
 
     border: none;   
     border-bottom: 3px solid black  ;
-
-
 
 }
 .new-tweet .input-output{
@@ -33,15 +32,11 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
 
-
 }
 
 .input-output input,output {
 
-
     margin-top: 10px;
-
-
 }
 
 .tweetTooLong{

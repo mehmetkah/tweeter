@@ -15,12 +15,11 @@ html {
  */
 
 body {
-  color: #545149;
+  color: #3e3a52;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: "Inter Tight", sans-serif;
 
- 
 }
 
 
@@ -34,6 +33,3 @@ main {
 
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
