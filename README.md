@@ -5,9 +5,6 @@ Tweeter is a simple, single-page AJAX based Twitter clone that allows users to p
 ## Final Product
 
 Main page sized for desktop
-<<<<<<< HEAD
-![Main page](/images/mainpagefordesktop.png)
-=======
 
 <img width="1890" alt="main page for desktop" src="https://user-images.githubusercontent.com/94036907/194689067-802fedfd-09c6-4566-8ea8-d28969e87782.png">
 
@@ -23,7 +20,6 @@ Error occurs when there is no tweet
 
 <img width="727" alt="Error when tweet short" src="https://user-images.githubusercontent.com/94036907/194689191-44d4e96e-0d6a-459a-9fd3-f3a83dca8699.png">
 
-
 ## Getting Started
 
 1-Getting Started
@@ -33,12 +29,10 @@ Error occurs when there is no tweet
 3-Start the web server using the npm run local command.
 
 4-The app will be served at http://localhost:8080/.
-    
+
 5-Go to http://localhost:8080/ in your browser.
 
 6-Start Tweeting!
-
->>>>>>> d8856a3728d844d05bb1b6dcd14e8ca12969fcb8
 
 ## Dependencies
 
