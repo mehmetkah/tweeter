@@ -5,7 +5,7 @@ Tweeter is a simple, single-page Twitter clone that allows users to post a tweet
 ## Final Product
 
 Main page sized for desktop
-!(/images/mainpagefordesktop.png)
+![](/images/mainpagefordesktop.png)
 
 ## Dependencies
 
