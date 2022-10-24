@@ -35,6 +35,8 @@ $(document).ready(function () {
 </span>
 </footer></article>`);
     $tweet.append(innerHTML);
+    $(".counter").html("140");
+
     return $tweet;
   };
 
