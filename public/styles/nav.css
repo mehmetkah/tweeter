@@ -22,7 +22,14 @@ justify-content: space-between;
 
 }
 
-#arrow{
-    text-align: center;
+button {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 
-}
